@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="3dp"
+    android:padding="5dp"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/cardViewDiscount">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearlayoutmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:id="@+id/iv_discount_item"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:id="@+id/tv_discount_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Some Thing About the stream"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/BackgroundDark"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Offer % and Details"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+       <item android:id="@+id/home"
+           android:title="Home"
+           android:icon="@color/colorAccent"
+           android:checked="false"/>
+        <item android:id="@+id/lifeStyle"
+            android:title="LIFE STYLE"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+        <item android:id="@+id/beauty"
+            android:title="Beauty"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+    </group
+        >
+    <item android:id="@+id/notification"
+        android:title="Notification"
+        android:checked="false"
+        android:icon="@color/colorPrimary"/>
+
+    <group android:id="@+id/menu2"
+        android:checkableBehavior="single">
+        <item android:id="@+id/offer_zone"
+            android:title="OFFER ZONE"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+    </group>
+    <group android:id="@+id/menu4"
+        android:checkableBehavior="single"
+        >
+        <item android:id="@+id/reffer_earn"
+            android:title="Reffer and Earn"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+        <item android:id="@+id/my_rewards"
+            android:title="My Rewards"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+    </group>
+    <group android:id="@+id/menu3"
+        android:checkableBehavior="single">
+        <item android:id="@+id/my_cart"
+            android:title="My Cart"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+        <item android:id="@+id/my_order"
+            android:title="My Order"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+        <item android:id="@+id/my_accounts"
+            android:title="My Accounts"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+    </group>
+
+    <group android:id="@+id/menu5"
+        android:checkableBehavior="single">
+        <item android:id="@+id/customer_care"
+            android:title="Customer care"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+        <item android:id="@+id/legal"
+            android:title="Legal"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+        <item android:id="@+id/terms"
+            android:title="Terms and Condition"
+            android:checked="false"
+            android:icon="@color/colorPrimary"/>
+    </group>
+    <item android:id="@+id/logout"
+        android:title="Log-Out"
+        android:checked="false"
+        android:icon="@color/colorPrimary"/>
+
+
+</menu>

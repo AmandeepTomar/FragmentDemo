@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="User Name "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_cardView_userAddress_User_Name"
+        android:textAppearance="@android:style/TextAppearance" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/corners"
+        android:layout_below="@+id/tv_cardView_userAddress_User_Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/iv_cardView_userAddress_Contact_Number"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:text="XXXXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_cardView_userAddress_User_Mobile"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/tv_cardView_userAddress_User_Name"
+        android:layout_toRightOf="@+id/iv_cardView_userAddress_Contact_Number"
+        android:layout_toEndOf="@+id/iv_cardView_userAddress_Contact_Number"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/corners"
+        android:layout_below="@+id/iv_cardView_userAddress_Contact_Number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/iv_cardView_userAddress_AddressLine" />
+
+    <TextView
+        android:text="Address Head Line Location "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_cardView_userAddress_AddressLine"
+        android:layout_alignLeft="@+id/tv_cardView_userAddress_User_Mobile"
+        android:layout_alignStart="@+id/tv_cardView_userAddress_User_Mobile"
+        android:id="@+id/tv_cardView_userAddress_AddressLine"
+        android:layout_alignBaseline="@+id/iv_cardView_userAddress_AddressLine"
+       />
+</RelativeLayout>

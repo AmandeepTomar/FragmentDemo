@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/imageBlr"
+        android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/blur">
+
+    </RelativeLayout>
+<tailor.latest.imran.amandeep.com.latesttailor.CustomViews.RoundedImageView
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="50dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/navUserImage"/>
+    <TextView
+        android:id="@+id/navUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:paddingBottom="4dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/navUserImage"/>
+    <TextView
+        android:id="@+id/navUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"
+        android:textColor="#FFF"
+        android:layout_below="@+id/navUserName"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

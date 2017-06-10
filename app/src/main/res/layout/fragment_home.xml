@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="tailor.latest.imran.amandeep.com.latesttailor.Fragments.Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tv_home_offer_headLine"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView_Homa">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>
